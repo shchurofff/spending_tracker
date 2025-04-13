@@ -9,9 +9,9 @@ const Navbar = () => {
                     <h1>My Budget</h1>
                 </div>
                 <div className={styles.navLinks}>
-                    <a>Spend</a>
-                    <a>Spend Kaledar</a>
-                    <button className={styles.authBtn}>Login</button>
+                    <a>Расходы</a>
+                    <a>Календарь</a>
+                    <button className={styles.authBtn}>Войти</button>
                 </div>
             </nav>
         </header>

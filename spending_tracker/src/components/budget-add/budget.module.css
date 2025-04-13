@@ -1,0 +1,48 @@
+.budget__wrapper {
+    max-width: 1000px;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    /* align-items: center; */
+    margin: 1.5rem auto;
+
+    /* border: 1px solid red; */
+
+}
+
+.budget__wrapper label {
+    padding: 1.5rem 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+
+}
+
+.inp__group {
+    display: flex;
+    width: 100%;
+    max-width: 900px;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+}
+
+.inp__group input {
+    padding: 0.5rem;
+    width: 600px;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.inp__group button {
+    background-color: #9f119a;
+    color: white;
+    font-family: inherit;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
