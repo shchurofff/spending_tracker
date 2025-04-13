@@ -6,7 +6,7 @@ const Navbar = () => {
 		<header className={styles.header}>
             <nav className={styles.navbar}>
                 <div className={styles.logo}>
-                    <a>MyAppLogo</a>
+                    <h1>My Budget</h1>
                 </div>
                 <div className={styles.navLinks}>
                     <a>Spend</a>
