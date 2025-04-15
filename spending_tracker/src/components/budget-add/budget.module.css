@@ -1,48 +1,95 @@
-.budget__wrapper {
-    max-width: 1000px;
+.budget__form__container {
     display: flex;
-    /* justify-content: center; */
-    flex-direction: column;
-    /* align-items: center; */
-    margin: 1.5rem auto;
-
-    /* border: 1px solid red; */
-
+    justify-content: center;
+    align-items: center;
+    /* min-height: 100vh; */
+    margin-top: 3rem;
+    padding: 20px;
 }
 
-.budget__wrapper label {
-    padding: 1.5rem 0;
+.budget__form__card {
+    max-width: 420px;
+    margin: 2rem auto;
+    padding: 1.5rem 2.5rem;
+    background: #ffffff;
+    border-radius: 18px;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+}
+
+.budget__title {
     font-size: 1.5rem;
-    font-weight: bold;
-    color: white;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
 
+    margin-bottom: 0.5rem;
+    text-align: center;
 }
 
-.inp__group {
+.budget__form {
     display: flex;
-    width: 100%;
-    max-width: 900px;
-    /* border: 1px solid red; */
-    justify-content: space-between;
+    flex-direction: column;
+    gap: 25px;
+
 }
 
-.inp__group input {
-    padding: 0.5rem;
-    width: 600px;
-    border: 1px solid #ccc;
-    border-radius: 0.5rem;
-    outline: none;
-    transition: all 0.3s ease-in-out;
+.input__container {
+    display: flex;
+    align-items: center;
+    border: 2px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 0.75rem 1rem;
+    margin-bottom: 1.5rem;
+    transition: all 0.3s ease;
+
 }
 
-.inp__group button {
-    background-color: #9f119a;
-    color: white;
-    font-family: inherit;
-    font-size: 1rem;
-    padding: 0.5rem 1rem;
+.currency {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #374151;
+    margin-right: 8px;
+}
+
+.amount__input {
+    flex: 1;
     border: none;
-    border-radius: 0.5rem;
+    outline: none;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #1f2937;
+}
+
+.amount__input::placeholder {
+    color: #d1d5db;
+}
+
+.submit__btn {
+    width: 100%;
+    padding: 1rem;
+    background: #9f119a;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-size: 1rem;
+    font-weight: 500;
     cursor: pointer;
-    transition: background-color 0.2s ease-in-out;
-  }
+    transition: background 0.3s ease;
+}
+
+.submit__btn:hover {
+    /* background: #670b64; */
+    transform: translateY(-2px);
+    box-shadow: 0 7px 14px rgba(0, 0, 0, 0.15);
+    background: linear-gradient(135deg, #5a67d8 0%, #6b46c1 100%);
+}
+
+.hint {
+    margin-top: 1.5rem;
+    padding: 0.75rem;
+    background: #f0f4ff;
+    border-radius: 8px;
+    color: #d83ee9;
+    font-size: 0.85rem;
+    text-align: center;
+}
