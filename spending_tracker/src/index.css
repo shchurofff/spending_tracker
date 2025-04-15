@@ -5,6 +5,18 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+html, body {
+    height: 100%; /* Важно для обоих элементов */
+}
+
 html {
-    font-size: 16px; /* Базовый размер */
-  }
+    font-size: 16px;
+    background: linear-gradient(to bottom, #320c60, #03050f);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+body {
+    min-height: 100vh;
+}

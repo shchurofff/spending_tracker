@@ -14,6 +14,7 @@ const Budget = () => {
 						<input
 							type="number"
 							placeholder="0,00"
+                            min="0"
 							className={styles.amount__input}
 						/>
 					</div>

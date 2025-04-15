@@ -1,0 +1,62 @@
+.expense__container_wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid red;
+    height: 100vh;
+
+}
+
+.expense__container {
+    align-items: flex-end;
+    max-width: 500px;
+    margin-top: 2rem;
+    padding: 1.5rem 2.5rem;
+    background: #ffffff;
+    border-radius: 18px;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+
+    border: 1px solid red;
+}
+
+.expense__title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+
+    margin-bottom: 0.5rem;
+    text-align: center;
+
+}
+
+.expense__form {
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-around;
+    padding: 0.75rem 1rem;
+
+    
+
+}
+
+.expense__select {
+    width: 100%;
+    /* border: none; */
+    outline: none;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #1f2937;
+}
+
+.expense__inp {
+    width: 20%;
+}
+
+
+
+
+.diagram {
+    
+    color: white;
+}
